@@ -1,2 +1,2 @@
 [ansible_clients]
-192.168.56.101 ansible_ssh_pass=rachitha@123 ansible_ssh_user=root
+192.168.56.103 ansible_ssh_pass=rachitha@123 ansible_ssh_user=root
