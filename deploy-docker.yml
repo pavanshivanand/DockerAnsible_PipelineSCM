@@ -1,7 +1,10 @@
 ---
 - hosts: [ansible_clients]
+  vars:
+    ansible_python_interpreter: /usr/bin/python
   become: True
   tasks:
+    - debug: var=ansible_host
     - name: Install python pip
       yum:
         name: python-pip
