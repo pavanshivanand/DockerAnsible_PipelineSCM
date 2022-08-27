@@ -1,2 +1,2 @@
 [ansible_clients]
-192.168.56.103 ansible_ssh_pass=rachitha@123 ansible_ssh_user=jenkins
+20.204.38.104 ansible_ssh_pass=rachitha@123 ansible_ssh_user=jenkins
